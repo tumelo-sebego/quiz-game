@@ -46,3 +46,7 @@ def run_quiz():
         print(f'\nQuestion {num}')
         correct_count += ask_question(question, alternatives)
     print(f'\nYou got {correct_count} correct out of {num} questions')
+
+
+if __name__ == "__main__":
+    run_quiz()
